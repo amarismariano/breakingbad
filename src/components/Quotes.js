@@ -2,10 +2,10 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const ContainerQuote = styled.div`
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   background-color: #fff;
-  max-width: 800px;
+  max-width: 600px;
 
   @media (min-width: 992px) {
     margin-top: 10rem;
@@ -19,7 +19,7 @@ const ContainerQuote = styled.div`
 
     &::before {
       content: open-quote;
-      font-size: 10rem;
+      font-size: 8rem;
       color: black;
       position: absolute;
       left: -1rem;
